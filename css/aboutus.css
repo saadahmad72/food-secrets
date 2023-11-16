@@ -1,0 +1,71 @@
+:root {
+  --primary: #eebf00;
+  --secondary: #232b38;
+  --warning: #fe4545;
+  --ternary: #6c6c6c;
+  --pure: #fefefe;
+  --light: #f0f0f0;
+  --heaven: #ffffff;
+  --footer: #2d333f;
+}
+
+
+
+#aboutUs{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+#value{
+  padding-top:30px;
+  padding-bottom:30px;
+background-color: #f9f9f9;
+}
+
+.glyphicon-book, .glyphicon-ok, .glyphicon-time{
+  font-size: 90px;
+}
+.glyphicon {
+  color:var(--warning);
+}
+.glyphicon:hover{
+  color:var(--warning);
+  cursor:pointer;
+  transition: all ease-out 0.3s;
+}
+
+.value-card{
+  box-sizing:border-box;
+  border: 1px solid var(--warning);
+  padding: 10px;
+  border-radius:20px;
+  
+}
+
+.value-card:hover{
+  background-color: var(--primary);
+  color: var(--heaven);
+  cursor: pointer;
+}
+
+.head{
+  padding: 1rem 0;
+  color: var(--warning);
+}
+
+
+.glyphicon .glyphicon-book{
+  font-size: 90px;
+}
+
+
+#team{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+
+.team-content h4{
+  color: var(--warning);
+  padding: 10px;
+}

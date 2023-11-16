@@ -1,0 +1,45 @@
+:root {
+  --primary: #eebf00;
+  --secondary: #232b38;
+  --warning: #fe4545;
+  --ternary: #6c6c6c;
+  --pure: #fefefe;
+  --light: #f0f0f0;
+  --heaven: #ffffff;
+  --footer: #2d333f;
+}
+#success_message{ display: none;}
+
+#form{
+  margin-top:30px;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+b{
+  color: var(--warning);
+}
+label{
+  color: var(--warning);
+}
+
+.form-group .input-group .glyphicon{
+  color: var(--warning);
+}
+
+.form-group .input-group .input-group-addon .glyphicon{
+  font-size: small;
+}
+
+ span.glyphicon.glyphicon-send::before{
+    font-size:12px;
+ }
+/* appointment booking */
+
+
+
+
+#appointBooking{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

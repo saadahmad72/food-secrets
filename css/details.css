@@ -1,0 +1,239 @@
+
+
+:root {
+  --primary: #eebf00;
+  --secondary: #232b38;
+  --warning: #fe4545;
+  --ternary: #6c6c6c;
+  --pure: #fefefe;
+  --light: #f0f0f0;
+  --heaven: #ffffff;
+  --footer: #2d333f;
+}
+
+/********************* details_main ****************/
+
+.recipes_1{ 
+  margin-bottom:10px;
+ }
+ .recipes_2{ 
+  text-align:center;
+  padding-bottom: 25px;
+  box-shadow: 0px 0 1px 1px #e22709;
+  margin-bottom: 20px;
+ }
+ .recipes_2 h4{ 
+  padding-top:10px;
+  color: #e22709;
+ }
+ .recipes_2 h3{ 
+   padding-top:10px;
+   color: #e22709;
+  }
+
+/* *************** recipes card *************** */
+#details_main{ 
+ background-image: url(../img/recipe\ detail\ cover\ resize.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.details_inner{ 
+ padding-top:170px;
+ padding-bottom:150px;
+ background-color: #000000ab;
+}
+.details_main_1{ 
+ text-align:center;
+}
+.details_main_1 h1{ 
+ color:#fff;
+}
+.details_main_1 ul{ 
+ padding-top:10px;
+}
+.details_main_1 li{ 
+ display:inline;
+ padding-right:5px;
+ color: #fff;
+ font-size: 25px;
+}
+.details_main_1 li a{ 
+ color: #ffed00;
+}
+/********************* details_main_end ****************/
+/********************* details ****************/
+#details{ 
+ padding-top:30px;
+ padding-bottom:30px;
+}
+section.details_recp{
+  margin-top: 30px;
+}
+.details_1{ 
+ padding-bottom:30px;
+}
+.details_1 h3{ 
+ text-align:center;
+ color: #e42929;
+ font-weight:bold;
+}
+.content-top2 h4 {
+ font-size: 14px;
+ letter-spacing: 2px;
+ font-weight: bold;
+ color: #e22709;
+}
+.content-top2 h4:before {
+ display: inline-block;
+ width: 100px;
+ height: 2px;
+ background-color:#ff8f19;
+ vertical-align: middle;
+ margin-right: 1%;
+ content: "";
+}
+.content-top2 h4:after {
+ display: inline-block;
+ width: 100px;
+ height: 2px;
+ background-color:#ff8f19;
+ vertical-align: middle;
+ margin-left: 1%;
+ content: "";
+}
+.details_3 h3{ 
+ font-weight:bold;
+ padding-bottom:20px;
+ color: #e42929;
+}
+.details_4{ 
+ background: #f7f7f7;
+ padding: 24px 40px;
+ border-radius: 8px;
+}
+.details_4 i{ 
+ color: #09d405;
+ padding-right:10px;
+}
+.well_1{ 
+ font-size:18px;
+}
+.well_2{ 
+ padding-left:30px;
+ padding-bottom: 10px;
+ font-size: 15px;
+}
+/********************* details_end ****************/
+
+.post-date{
+  margin-top: 2rem;
+  font-size: 18px;
+}
+.post-date::before{
+  content:"\f073";
+  font-family: FontAwesome;
+  padding-right: 5px;
+}
+
+.review{
+  margin: 20px;
+}
+
+p.recp-intro{
+  margin: 30px 0;
+}
+
+.review span.rate-numb{
+  font-weight:bold;
+  font-size:25px;
+  margin-right: 5px;
+}
+.save-bt::before{
+  content: "\f02e";
+
+  font-family: FontAwesome;
+  padding-right: 5px;
+}
+
+.save-bt{
+  margin: 20px;
+  cursor: pointer;
+}
+
+#product_bio{ 
+  padding-top:30px;
+  padding-bottom:30px;
+  background: gainsboro 0.9;
+ }
+ .method strong{
+  font-size: 25px;
+ }
+ .method p.stp_1{
+  font-size: 16px;
+  color: var(--ternary) ;
+ }
+ #video{
+
+    padding-top:30px;
+    padding-bottom:30px; 
+
+ }
+ .video_content .embed-responsive .embed-responsive-16by9{
+  width:100%;
+  height: 100%;
+ }
+ .video_content .embed-responsive .embed-responsive-16by9 .embed-responsive-item{
+ width:100%;
+ }
+h3.vid-heading{
+ font-size: 46px;
+}
+#moreRecipe{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.appoint_bio{
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)),
+              url(../img/appoint\ bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 70vh;
+}
+.appoint_bio h1{
+  color: var(--heaven);
+  margin-bottom: 30px;
+
+}
+.bt-appoint{
+  color: var(--heaven);
+  background-color: var(--warning);
+}
+
+@media screen and (max-width : 767px){
+.details_inner {
+ padding-top: 110px;
+ padding-bottom: 50px;
+}
+#details {
+ text-align: center;
+}
+}
+
+@media (min-width:470px) and (max-width:767px) { 
+
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+
+} 
+ 
+@media (min-width:961px) and (max-width:1200px) {
+
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}
