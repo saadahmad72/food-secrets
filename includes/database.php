@@ -9,7 +9,7 @@ $relativePath = 'private';
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "deleciousfoodrecipe";
+$dbname = "foodsecrets";
 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
