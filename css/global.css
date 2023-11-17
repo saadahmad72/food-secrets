@@ -1,6 +1,15 @@
+@font-face {
+  font-family: 'Mundial', sans-serif;
+  src: url('/fonts/MundialRegular.woff') format('woff'),
+       url('/fonts/MundialRegular.woff2') format('woff2'),
+       url('/fonts/MundialRegular.ttf') format('truetype'), 
+       url('/fonts/MundialRegular.svg') format('svg');
+}
+
 :root {
   --primary: #eebf00;
   --secondary: #232b38;
+  --text: #5F5F5F; 
   --warning: #fe4545;
   --ternary: #6c6c6c;
   --pure: #fefefe;
@@ -10,7 +19,7 @@
 }
 
 body{
-font-family: 'Josefin Sans', sans-serif;
+font-family: 'mundial', sans-serif;
   }
 a{ 
 text-decoration: none;
@@ -64,12 +73,8 @@ b{
 span{ 
 
 }
-br{ 
 
-}
-section{ 
 
-}
 .img_responsive{ 
  width:100%
  }
@@ -103,9 +108,9 @@ padding:0;
 
 /********************* header ****************/
 #header .navbar-default .navbar-nav>li>a:hover{
- color: #e22709!important;
- border-bottom: 2px solid var(--warning);
-
+ color: black!important;
+ border-bottom: 1px solid black;
+ transition: .3s ease-in-out;
  
  /* background-color: #ffed00; */
 }
@@ -117,7 +122,7 @@ padding:0;
 
 #header .navbar-default .navbar-nav>li>a {
 color: #e22709;
-font-size: 17px;
+font-size: 16px;
 }
 #header .navbar-nav {
 float:right;
@@ -174,13 +179,13 @@ padding: 15px 16px;
  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
  display: block;
  height: 5rem;
- background: linear-gradient(to bottom, #FEDC8B 0%, #FEDC8B 100%);
+ background: linear-gradient(to bottom, #8bcefe 0%, #FEDC8B 100%);
  color: #e22709;
  letter-spacing: 1px;
  float: left;
  padding-top: 2rem;
  position: relative;
- -webkit-filter: drop-shadow(0 0.5rem 0.3em rgba(0, 0, 0, 0.5));
+ filter: drop-shadow(0 0.5rem 0.3em rgba(0, 0, 0, 0.5));
  transform: translate3d(0, 0, 0);
  width: 16rem;
 }

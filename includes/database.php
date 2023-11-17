@@ -2,7 +2,7 @@
 
 session_start();
 
-$siteUrl = 'http://localhost/portfolio/';
+$siteUrl = 'http://localhost/food-secrets/';
 
 $relativePath = 'private';
 
